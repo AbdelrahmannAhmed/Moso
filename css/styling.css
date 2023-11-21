@@ -1,0 +1,282 @@
+.headersfont {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.primary-color {
+    color: #ffd74f !important;
+}
+
+.primary-colorbg {
+    background-color: #ffd74f !important;
+
+}
+
+.tooplate-red {
+    color: #f65129;
+}
+
+.tooplate-green {
+    color: #00a05d;
+
+}
+
+.hovernavA {
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.hovernavA:hover {
+    background-color: #ffd74f;
+    color: white !important;
+}
+
+.Hovertext {
+    transition: all 0.2s;
+}
+
+.Hovertext:hover {
+    color: white;
+}
+
+.Home {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation-name: backgroundimage;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes backgroundimage {
+
+    0% {
+        background-image: url(../images/slideshow/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering.jpg);
+    }
+
+    50% {
+        background-image: url(../images/slideshow/white-wall-living-room-have-sofa-decoration-3d-rendering.jpg);
+    }
+
+    100% {
+        background-image: url(../images/slideshow/wood-sideboard-living-room-interior-with-copy-space.jpg);
+    }
+
+}
+
+.HomeFS {
+    font-size: 62px;
+    margin: 8px 0 24px;
+    width: 736px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:575px) {
+    .HomeFS{
+        width: 400px;
+    }
+    formedia{
+        font-size: 50px;
+    }
+}
+
+.category {
+    width: 736px;
+    height: 150px;
+}
+
+.buttomhome {
+    background-color: #f65129;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    width: 89.33px;
+    height: 54px;
+    font-size: 20px;
+    transition: all 0.25s;
+}
+
+.buttomhome:hover {
+    background-color: #ffd74f;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.paddingspecial {
+    padding: 150px 0;
+}
+
+.backgroundAX {
+    background-image: url(../images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 391.59px;
+    padding: 100px 0;
+}
+
+.custom-block {
+    background-color: #e9eaeb;
+    border-top: 20px solid #f65129;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 50px;
+}
+
+
+.bordernone:focus {
+    border-color: transparent;
+}
+
+.paddingspecial2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.learnmore {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #f65129;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    opacity: 0%;
+    transition: all 0.5s;
+}
+
+.hovered:hover .learnmore {
+    opacity: 100%;
+
+}
+
+.learnmore:hover {
+    background-color: #ffd74f;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.lovearchive {
+    position: absolute;
+    width: 63.38px;
+    height: 86px;
+    background-color: white;
+    right: 30px;
+    top: 16px;
+}
+
+.coloricon:hover {
+    color: #f65129;
+}
+
+.pricess {
+    position: absolute;
+    width: 63.38px;
+    height: 30px;
+    background-color: white;
+    color: #f65129;
+    top: 120px;
+    right: 30px;
+}
+
+.pricess::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    top: -6px;
+    right: 23px;
+    transform: rotate(45deg);
+}
+
+.ea {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 5px;
+    border: 1px solid #dee2e6;
+    transition: all 0.5s;
+}
+
+.ea:hover {
+    background-color: #f65129;
+    color: white;
+}
+
+
+
+.Widthspec {
+    width: 412px;
+    height: 223px;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.bg-new {
+    background-color: #f9f9f9;
+}
+
+.bg-doc {
+    background: linear-gradient(180deg, rgba(246, 81, 41, 1) 0%, rgba(255, 190, 140, 1) 100%);
+}
+
+.arrowa {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.titlecarosle {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .titlecarosle {
+        display: inline;
+    }
+}
+
+.specialborder {
+    border-radius: 50%;
+}
+
+.interiormargin {
+    margin: 54px 40px;
+}
+
+.borderAS {
+    border: 2px whitesmoke solid;
+    background: white;
+}
+
+.padbut {
+    padding: 12px;
+    font-size: 20px;
+    color: white;
+    background-color: #f65129;
+    transition: all 0.25s;
+}
+
+.padbut:hover {
+    background-color: #ffd74f;
+}
+
+.site-footer {
+    background-color: #36363e;
+}
